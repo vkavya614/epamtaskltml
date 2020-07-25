@@ -1,0 +1,100 @@
+body{
+	margin: 0px;
+	padding: 0px;
+}
+a,h1{
+	margin: 0px;
+	padding: 0px;
+}
+.container{
+	width: 100%;
+	height: 100vh;
+	background: url("img/bg.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.login-form{
+	width: 600px;
+	background: #fff;
+	padding: 60px;
+	box-sizing: border-box;
+}
+.login-form .form-title-area{
+	text-align: center;
+	margin-bottom: 30px;
+}
+.login-form .form-title-area h1{
+	font-size: 40px;
+}
+.login-form .form-btn-area{
+	text-align: center;
+}
+.login-form .form-btn-area a{
+	display: inline-block;
+	padding: 20px 40px;
+	background: red;
+	font-size: 30px;
+	color: #fff;
+	text-decoration: none;
+	letter-spacing: 1px;
+
+}
+.login-form .form-btn-area .facebook-btn{
+	background: #3b5999;
+}
+
+.login-form .form-btn-area .google-btn{
+	background: #dd4b39;
+}
+
+.login-form .form-input-area{
+	padding: 15px;
+	margin-top: 30px;
+}
+.login-form .form-input-area .single-input{
+	margin-bottom: 15px;
+}
+.login-form .form-input-area .input-title{
+	font-size: 30px;
+	margin-bottom: 15px;
+}
+.login-form .form-input-area .input-title a{
+	font-size: 25px;
+	text-decoration: none;
+	color: #8a8a8a;
+}
+
+.login-form .form-input-area input{
+	width: 100%;
+	height: 60px;
+	font-size: 25px;
+	background: #d8d8d870;
+	box-shadow: none;
+	border:1px solid #c1c1c1;
+	padding: 5px;
+	box-sizing: border-box;
+	
+
+}
+.login-form .form-input-area .login-btn{
+	margin-top: 15px;
+	background: #333;
+	color: #fff;
+	cursor: pointer;
+	transition: 0.4s;
+}
+.login-form .form-input-area .login-btn:hover{
+	background: #009688;
+}
+
+.login-form .form-footer{
+	text-align: center;
+	font-size: 16px;
+}
+.login-form .form-footer a{
+	color: #8a8a8a;
+}

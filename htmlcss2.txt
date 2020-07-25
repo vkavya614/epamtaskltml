@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Login</title>
+
+	<!-- fontAwesome cdn for icon -->
+	<link rel="stylesheet"/>
+	<!-- main css file -->
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+	<div class="container">
+		<!-- form star -->
+		<div class="login-form">
+			<form action="#" method="#">
+				<!-- form title area start -->
+				<div class="form-title-area">
+					<h1>Sign in</h1>
+				</div>
+
+				<!-- form btn area start -->
+				<div class="form-btn-area">
+					<a href="" class="form-btn facebook-btn">
+						 <!-- fontAwesome icon -->
+						<i class="fab fa-facebook-f"></i>
+						Facebook
+					</a>
+
+					<a href="" class="form-btn google-btn">
+						 <!-- fontAwesome icon -->
+						<i class="fab fa-google"></i>
+						Google
+					</a>
+
+				</div>
+
+				<!-- form input area strt -->
+				<div class="form-input-area">
+					<div class="single-input">
+						<div class="input-title">
+							<span>User Name</span>
+						</div>
+						<input type="text" placeholder="User Name">
+					</div>
+
+					<div class="single-input">
+						<div class="input-title">
+							<span>Password</span>
+							<a href="#">Forgot?</a>
+						</div>
+						<input type="password" placeholder="Password">
+					</div>
+
+					<div class="single-input">
+						<input type="submit" value="Login" class="login-btn">
+					</div>
+				</div>
+				<!-- form footer start -->
+				<div class="form-footer">
+					<span>Not a member? <a href="#">Sign Up Now</a></span>
+				</div>
+
+			</form>
+		</div>
+		<!-- form end -->
+	</div>
+
+
+
+
+
+
+
+
+
+
+	
+</body>
+</html>
